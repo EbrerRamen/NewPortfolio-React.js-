@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const contact = () => {
+const Contact = () => {
     return (
         <section id="contact" className="py-20 px-8 bg-white">
             <motion.h2
