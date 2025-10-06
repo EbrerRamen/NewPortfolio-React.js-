@@ -8,13 +8,13 @@ import Footer from "./components/Footer";
 
 function App() {
     return (
-        <div className ="min-h-screen bg-gradient-to-br from-indigo-500 via-purple-500 to-blue-500 flex flex-col items-center justify-center">
+        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-gray-800 flex flex-col items-center justify-center">
             <Navbar />
-            <div className="backdrop-blur-lg bg-white/10 border border-white/20 rounded-3xl shadow-2xl p-10 w-11/12 md:w-3/4 lg:w-2/3 my-10">
-            <Hero />
-            <About />
-            <Projects />
-            <Contact />
+            <div className="backdrop-blur-lg bg-gray-900/30 border border-gray-700/40 rounded-3xl shadow-2xl p-10 w-11/12 md:w-3/4 lg:w-2/3 my-10">
+                <Hero />
+                <About />
+                <Projects />
+                <Contact />
             </div>
             <Footer />
         </div>
